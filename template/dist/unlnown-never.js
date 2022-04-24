@@ -1,8 +1,10 @@
-var userInput;
-var userName;
+"use strict";
+let userInput;
+let userName;
+let age;
 userInput = 5;
 userInput = 'Max';
-// unknown型を他の型に代入する場合にはif文で型をチェックしなければならない．
+age = 30;
 if (typeof userInput === 'string') {
     userName = userInput;
 }

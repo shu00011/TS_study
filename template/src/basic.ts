@@ -25,3 +25,10 @@ add(number1, number2, printResult,resultPhrase);
 // npm install --save-dev lite-server（開発用のWebサーバー）
 // package.jsonにstartを追加→npm startでサーバーがたちあがる
 // tsのコンパイルにはnpx tsc ファイル名
+// watchモード→なにか変更されると自動的にコンパイルが走る
+// npx tsc app.ts -w
+// 複数のファイルを同時にコンパイルするには？
+// フォルダを一つのプロジェクトだと認識させる→初めの初期化 npx tsc --init
+// tsconfig.jsonを作成する．→フォルダの中身がtsによって管理されるようになる．
+// npx tscで.tsの全てのファイルがjsにコンパイルされる．
+// watchモード npx tsc -wもできる．

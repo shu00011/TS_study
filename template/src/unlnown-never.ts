@@ -1,8 +1,10 @@
 let userInput: unknown;
 let userName: string;
+let age: number;
 
 userInput = 5;
 userInput = 'Max';
+age = 30;
 
 // unknown型を他の型に代入する場合にはif文で型をチェックしなければならない．
 if(typeof userInput === 'string') {
